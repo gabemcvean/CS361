@@ -1,0 +1,144 @@
+/* Header Styling */
+.header {
+    background-color: #9f9f9f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 3px solid #1f669b;
+}
+
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Main Container */
+.container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+/* Header Styling */
+h1 {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+/* Task List */
+.task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.task {
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+/* Priority-Based Task Colors */
+.low {
+    background: #ffeb3b;  /* Yellow */
+}
+
+.medium {
+    background: #ff9800;  /* Orange */
+}
+
+.high {
+    background: #e53935;  /* Red */
+    color: white;
+}
+
+/* Removing Bullet Points */
+.task-list li {
+    list-style: none;
+}
+
+/* Buttons */
+button, a.button {
+    display: inline-block;
+    padding: 12px 18px;
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    margin: 10px;
+}
+
+button:hover, a.button:hover {
+    background-color: #1f669b;
+    transform: scale(1.05);
+}
+
+/* Links */
+a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+input, textarea, select {
+    width: 80%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #2980b9;
+    outline: none;
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+}
